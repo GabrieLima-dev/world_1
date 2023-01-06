@@ -9,7 +9,7 @@ name_ca = sp.upper()
 name_lo = sp.lower()
 lett_all = len(sp) - (sp.count(' '))  # contando os espaços
 first_name = name.split()
-lett_first = name.find(' ')
+lett_first = len(first_name[0])
 
 print('Analisando o seu nome...')
 print("""Seu nome em maiúsculo é {}
